@@ -17,3 +17,8 @@ test('test PM', (t) => {
   t.is(convert('07:05:45PM'), '19:05:45')
 })
 
+test('should throw error', (t) => {
+  t.throws(() => {
+    convert('jake from state farm')
+  })
+})

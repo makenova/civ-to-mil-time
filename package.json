@@ -6,7 +6,7 @@
   "scripts": {
     "test": "ava --verbose"
   },
-  "keywords": [time, 24 hour, 12 hour],
+  "keywords": ["time", "24 hour", "12 hour"],
   "author": "makenova",
   "license": "MIT",
   "devDependencies": {
